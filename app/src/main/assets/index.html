@@ -8,23 +8,31 @@
 -->
 <html>
 <head>
-<script language="JavaScript">
-   function callJS(arg) { 
-      document.getElementById('replaceme').innerHTML = arg;
-   }
-</script>
+   <title>Web Page Example</title>
+   <link rel="stylesheet" href="base.css" type="text/css"  />
 </head>
 <body>
-<h2>WebView</h2>
-<p>
-<a href="#" onclick="window.alert('Alert from JavaScript')"> 
-   Display JavaScript alert</a>
-</p>
-<p>
-<a href="#" onclick="window.android.callAndroid('Hello from Browser')"> 
-   Call Android from JavaScript</a>
-</p>
-<p id="replaceme"> 
-</p>
+<h1>Web Page Example</h1>
+
+<ul class="navbar">
+   <li>
+      Menu 2
+      <ul class="menu">
+         <li><a href="">Item 1</a></li>
+         <li><a href="">Item 2</a></li>
+         <li><a href="">Item 3</a></li>
+      </ul>
+   </li>
+
+   <li>
+      Menu 2
+      <ul class="menu">
+         <li>Item 1</li>
+         <li>Item 2</li>
+         <li>Item 3</li>
+      </ul>
+   </li>
+</ul>
+
 </body>
 </html>

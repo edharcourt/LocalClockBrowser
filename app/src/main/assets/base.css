@@ -1,0 +1,45 @@
+body {
+	font-family: georgia,serif;
+	width:600px;
+}
+
+ul.navbar {
+	list-style:none;
+	background-color:#333333;
+	color:#DDDDDD;
+	font-weight:bold;
+	height:20px;
+}
+
+ul.navbar > li {
+   float:left;
+   margin-left:3em;
+   width:100px;
+}
+
+
+/* Don't show the lists inside the menu by default */
+.navbar .menu {
+	display:none;
+}
+
+
+ul.navbar > li:hover ul {
+	display:block;
+	list-style:none;
+	text-align:left;
+	margin-left:-2.5em;
+}
+
+
+
+.menu li a {
+	color:#000000;
+	text-decoration:none;
+}
+
+.menu li:hover {
+	color:#EEEEEE;
+	text-decoration:none;
+	background-color:#222222;
+}
